@@ -138,13 +138,13 @@ p {
 
 
 .header-wrapper .nav-item .nav-link:hover {
-    color: rgb(0, 119, 237);
+    /* color: rgb(0, 119, 237); */
+    text-decoration: underline;
     scale: 1.09;
 }
 
 .header-wrapper .navbar-brand:hover {
     scale: 1.05;
-    text-decoration: underline;
 }
 
 .header-scrolled {
@@ -217,13 +217,12 @@ p {
 .edu-card {
     color: white;
     border: white 2px solid;
-    background-color: #171717;
+    background-color: rgb(12, 32, 54);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
     transition: transform .2s;
     transition-timing-function: linear;
-    /* opacity: 0.3; */
 }
 
 .edu-logo {
