@@ -11,6 +11,10 @@
         font-size: 0.9rem;
         line-height: 2.6875rem;
     }
+
+    h5 {
+        font-size: 1.25rem;
+    }
 }
 
 @media(max-width: 991px) {
@@ -35,8 +39,11 @@
         margin-bottom: 5rem;
     }
 
-
+    h5 {
+        font-size: 1.15rem;
+    }
 }
+
 
 @media(max-width: 767px) {
     h1 {
@@ -54,7 +61,9 @@
         line-height: 2.1875rem;
     }
 
-
+    h5 {
+        font-size: 1rem;
+    }
 
     .about-image {
         margin-bottom: 5rem;
@@ -63,6 +72,10 @@
 
 @media(max-width: 576px) {
     .padding-content {
-        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
+    h5 {
+        font-size: 0.9rem;
     }
 }
