@@ -101,6 +101,7 @@ p {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid #3e4143;
 }
 
@@ -210,6 +211,7 @@ p {
     color: white;
     border: white 2px solid;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
